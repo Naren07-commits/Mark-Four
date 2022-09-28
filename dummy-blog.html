@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>blogs | narendrachordiya</title>
+</head>
+
+<body>
+    <nav class="navigation container">
+      <div class="nav-brand"><a href="/">iAm_narendra</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/blogs.html">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <h1 class="hero-heading">
+        this is a <span class="heading-inverted">tech</span> blog
+      </h1>
+    </header>
+
+    <article class="container-center showcase-blog">
+      <p>
+        <h2> querySelector vs getElementByID </h2>
+        <h3>What is querySelector? </h3>
+                            QuerySelector is a function that returns an element that matches a CSS query. 
+                     Note the querySelector method only returns the first instance of a selector. 
+                     When using querySelector , you can specify any CSS selector that you want. 
+                     For instance, you could retrieve an element which has a specific ID set, or an element by its tag name. 
+                     You can specify multiple selectors using the querySelector and querySelectorAll methods. 
+                     To learn more about CSS selectors, check out our guide to CSS and HTML attribute selectors .
+                     If matches are not found, null is returned.
+
+      </p>
+      <br/>
+
+      <h3>What is getElementById?</h3>
+      <p>
+The getElementById() method retrieves an element based on its ID attribute, hence the name.
+This method is more restrictive than querySelector because you can only retrieve elements based on their particular ID.
+You would use this method if you only want to retrieve one element from the web page. This is because HTML IDs must be unique to a particular element. You cannot use an ID to refer to two elements on the web page.
+
+      </p>
+      <br/>
+
+      <h3>
+        querySelector vs. getElementById
+
+      </h3>
+      <p>
+The obvious similarity between these two methods is that they both select elements from a web page. They do so in different ways.
+With a querySelector statement, you can select an element based on a CSS selector. This means you can select elements by ID, class, or any other type of selector. Using the getElementById method, you can only select an element by its ID.
+Generally, you should opt for the selector that most clearly gets the job done.
+If you only need to select an element by ID or class, you can use getElementById or getElementsByClassName, respectively. If you need to use a more elaborate rule to select elements, the querySelector method is your best option.
+
+        
+      </p>
+    </article>
+
+   <footer class="footer">
+      <div class="footer-header">social media presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://github.com/Naren07-commits"
+            target="_blank"
+          >
+            github
+          </a>
+        </li>
+
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/narendra-chordiya-154a93171/"
+          >
+            linkedin
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+
+</body>
+
+</html>
